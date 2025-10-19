@@ -1,0 +1,5 @@
+Threading in Python is often misunderstood.  
+Because of the Global Interpreter Lock, threads do not run CPU heavy code in parallel.  
+However, they shine when tasks involve waiting, such as network requests or file operations.  
+By overlapping these waits, threading improves responsiveness and throughput.  
+In practice, engineers combine threading with multiprocessing to balance I/O and CPU workloads.  
